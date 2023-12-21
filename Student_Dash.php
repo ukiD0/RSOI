@@ -2,7 +2,7 @@
 session_start();
 include("./includes/connect.php");
 
-$query = "SELECT * FROM assigments WHERE deadline >= CURDATE() ORDER BY deadline";
+$query = "SELECT * FROM assignments WHERE deadline >= CURDATE() ORDER BY deadline";
 $result = $conn->query($query);
 
 $conn->close();

@@ -23,7 +23,7 @@
         if($result->num_rows > 0) {
             while($row  = $result->fetch_assoc()) {
                 echo "<div class = 'news-item'>";
-                echo "<h3>" .$row["title" ."</h3>"];
+                echo "<h3>" .$row["title"] ."</h3>";
                 echo "<p>" .$row["content"] ."</p>";
                 echo "</div>";
             }
