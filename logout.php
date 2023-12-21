@@ -1,5 +1,5 @@
 <?php 
 session_start();
 unset($_SESSION["user_id"]);
-header("Location: http://phpsite");
+header("Location: http://localhost");
 ?>
